@@ -1,0 +1,40 @@
+*{
+   padding: 0;
+   margin: 0;
+}
+
+#header{
+   background-color: aqua;
+   width: 100%;
+   height: 150px;
+}
+.container1{
+   background-color: chocolate;
+   width: 100%;
+   height: 400px;
+}
+.texto{
+font-family: algerian;
+font-size: 20px;
+color: black;
+}
+}
+.container2{
+   background-color: orange;
+   width: 100%;
+   height: 400px;
+
+}
+div{
+   background-color: pink;
+   width: 100%;
+   height: 400px;
+}
+
+.texto{
+font-family: algerian;
+font-size: 20px;
+color: black;
+}
+
+

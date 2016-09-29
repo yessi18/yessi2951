@@ -1,0 +1,55 @@
+<html>
+	<head>
+
+		<title>ejemplo CSS JavaScript</title>
+		<link href="style.css" rel="stylesheet" type="text/css"/>
+		<script type="text/JavaScript">
+
+			function mostrar1(){ 
+		document.getElementById("container2").style.display="block";
+		document.getElementById("container1").style.visibility="hidden";
+		}
+			function mostrar2(){
+				document.getElementById("container2").style.display="none";
+		document.getElementById("container1").style.visibility="visible";
+
+		}
+		</script>
+
+		<style type="text/css">
+<!--
+.Estilo1 {	color: #CC6600;
+	font-weight: bold;
+	font-family: Arial, Helvetica, sans-serif;
+	font-style: italic;
+	font-size: xx-large;
+}
+-->
+</style>
+
+
+		<div align="center"><span class="Estilo1">INICIO DE SESION</span>
+	</head>
+	<body>
+		<div id="header"></div>
+		<div id="container2" class="conteiner2" style="display:none;">
+		<center>
+			<br>
+			<br>
+			<br>
+			<br>
+			<br>
+			<p class="texto">Correo: <input type="text" name="correo"/></p>
+			<br>
+			<br>
+     		<p>Contrasena: <input type="password" name="contrasena">
+     		 <br>
+     		 <br>
+			<span onclick="mostrar2()"> <br> <input type="submit" value="Iniciar sesion" /> </span>
+		</div>
+		<div id = "container1" class="container1"> 
+			<span onclick="mostrar1()"><center> <br><br><br><br><br><br><br><br> <input type="submit" value="Entrar"/></center> </span>
+		</div>
+		
+	</body>
+	</html>
